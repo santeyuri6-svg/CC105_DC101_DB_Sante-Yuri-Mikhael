@@ -1,0 +1,89 @@
+*{
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif}
+
+body{
+    background:#6d6d6d;
+    color:#222;
+    padding:20px
+}
+
+.container{
+    max-width:900px;
+    margin:0 auto;
+    background:#b5b3b3;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 4px 18px rgba(39, 39, 39, 0.06)
+}
+
+h1{
+    text-align:center;
+    margin-bottom:18px
+}
+
+.row{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:10px
+}
+
+.row label{
+    font-weight:600;
+    margin-bottom:6px
+}
+
+.row input, 
+.row select{
+    padding:8px;
+    border:1px solid rgb(57, 57, 59); 
+    border-radius:6px
+}
+
+.actions{
+    display:flex;
+    gap:8px
+}
+
+button{
+    padding:8px 12px;
+    border-radius:6px;
+    border:none;
+    background:#31ff1a;
+    color:#fff;
+    cursor:pointer
+}
+
+button
+    [disabled]{
+    opacity:.6;
+    cursor:not-allowed
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:12px
+}
+
+table th, table td{
+    padding:8px;
+    border:1px solid #3b3b3b;
+    text-align:left
+}
+
+.actions small{
+    color:#313030
+}
+
+.action-btn{
+    margin-right:6px; 
+    padding:4px 8px; 
+    background:#53533e;
+    color:#c4c4c4;
+    border-radius:4px; 
+    font-size:13px
+}
+
+.delete-btn{
+    background:#2d0ef7}
