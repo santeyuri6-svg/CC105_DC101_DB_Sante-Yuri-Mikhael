@@ -1,17 +1,9 @@
-Student Listing System its all about listing student information inside of school in defferent department.
+My system guide
 
-components(Frontend + PHP Backend)
+README FILE AND IMAGE- see the components of my system from language that i used and the erd explanation and relationship also inside of this folder has sample image
 
-frontend/index.html (HTML + JS frontend)
-frontend/style.css (CSS for the frontend)
-frontend/script.js (JavaScript for frontend interactions)
-backend/db_store.php (DB configuration - edit to match your MySQL credentials)
-backend/db_caller.php (DB connection helper)
-backend/crud.php (Single PHP endpoint handling CRUD operations via action parameter)
-TABLE students student id - INT - unique identifier name - VARCHAR - student name course - VARCHAR - name of course yearlevel - INT - students year level section - INT - section of students
+SYSTEM IMAGE OUTPUT-this folder contains sample output overview of my system from opening the system to start input and delete and editing from my system
 
-course course id - INT - course unique identifier course name - VARCHAR - name of course
+ERD IMAGE-this shown up the 3 entity that i used also you can see primary keys from this three entities with relationship
 
-section section id - INT - unique identifier of section section name - LETTER - name of section
-
-RELATIONSHIP course can have many section and one section can have many students. course (1)---------(N)sections section (1)---------(N)students
+SCRIPT.SQL-this file is the code or script of my database 3 entities from the table to column 
