@@ -7,3 +7,5 @@ SYSTEM IMAGE OUTPUT-this folder contains sample output overview of my system fro
 ERD IMAGE-this shown up the 3 entity that i used also you can see primary keys from this three entities with relationship
 
 SCRIPT.SQL-this file is the code or script of my database 3 entities from the table to column 
+
+sante_system-this folder you can see the source code it contains complete backend and frontend thats has code languages that i used also the php file 
